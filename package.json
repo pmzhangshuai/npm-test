@@ -12,6 +12,7 @@
   "author": "zhangshuai",
   "license": "ISC",
   "dependencies": {
-    "parcel-bundler": "^1.12.5"
+    "parcel-bundler": "^1.12.5",
+    "date-fns":"^2.30.0"
   }
 }
