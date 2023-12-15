@@ -19589,7 +19589,9 @@ var _dateFns = require("date-fns");
 // test
 
 var date = "1997-09-27 10:00:00";
-document.body.textContent = "".concat((0, _dateFns.formatDistanceToNow)(new Date(date)), " ago");
+var para = document.createElement("p");
+para.textContent = "".concat((0, _dateFns.formatDistanceToNow)(new Date(date)), " ago");
+document.body.appendChild(para);
 },{"date-fns":"../node_modules/date-fns/esm/index.js"}],"../node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
 var global = arguments[3];
 var OVERLAY_ID = '__parcel__error__overlay__';
